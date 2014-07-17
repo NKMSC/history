@@ -602,7 +602,23 @@ body {
       left: 0; } }
 
       /*add*/
-      header{
+      header,footer,#end{
         text-align: center;
         color: white;
       }
+      footer a{
+        color: gainsboro;
+     }
+     footer ul{
+      list-style: none;
+      text-align:center;
+     }
+     footer li{
+      padding-right: 0.2em;
+      float:left;
+       }
+      footer li:before{
+         content: '|\20';}
+footer li:first-child:before{
+content: ' ';
+}
