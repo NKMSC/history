@@ -602,7 +602,7 @@ body {
       left: 0; } }
 
       /*add*/
-      header,footer{
+      header,footer,#end{
         text-align: center;
         color: white;
       }
@@ -621,4 +621,4 @@ body {
          content: '|\20';}
 footer li:first-child:before{
 content: ' ';
-};
+}
