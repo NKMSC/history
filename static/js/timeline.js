@@ -20,5 +20,4 @@
 }).call(this);
 
 //email replace
-email=document.getElementById('email');email.innerHTML=email.text.replace('AT','&#64;').replace('DOT','&#46;');function detail(obj){if(obj.nextElementSibling.style.display!="block")
-{obj.nextElementSibling.style.display="block";}else{obj.nextElementSibling.style.display="none";}}
+email=document.getElementById('email');email.innerHTML=email.text.replace('AT','&#64;').replace('DOT','&#46;');
