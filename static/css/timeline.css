@@ -609,9 +609,3 @@ body {
       footer a{
         color: gainsboro;
      }
-      footer li:before{
-       margin-right: 0.5em;
-         content: '|';}
-footer li:first-child:before{
-content: ' ';
-}
